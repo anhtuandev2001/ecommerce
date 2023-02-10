@@ -186,7 +186,7 @@ margin-right: 16px;
     }
     .mobile_footer{
         margin-top: 27px;
-    flex-direction: column;
+    flex-direction: column-reverse;
 
     }
     .produce__card{
@@ -228,6 +228,8 @@ padding: 12px 24px;
     }
     .footer__item{
         margin-bottom: 16px;
+        display: flex;
+        flex-direction: column;
     }
     .footer__item-list{
         margin-left: 24px;
@@ -267,15 +269,27 @@ color: #3E3E3E;
         justify-content: center;
     }
     .mobile-order-1{
+        flex-direction: column;
+
+        display: flex;
         order: 1;
     }
     .mobile-order-2{
+        flex-direction: column;
+
+        display: flex;
         order: 2;
     }
     .mobile-order-3{
+        flex-direction: column;
+
+        display: flex;
         order: 3;
     }
     .mobile-order-4{
+        flex-direction: column;
+
+        display: flex;
         order: 4;
     }
     
