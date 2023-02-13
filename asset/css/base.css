@@ -1,5 +1,41 @@
 :root {
-   
+    --main-primary-color: #EB6D20;
+/*  */
+    --text-color: #3e3e3e;
+    --sub-text-color: #9A9A9A;
+    --paragraph-color: #292929;
+/*  */
+    --main-white-color: #FFFFFF;
+    --main-medium-color:#5F5F5F;
+    --main-middle-black: #0B0B0B;
+    --main-third-black: #040404;
+/*  */
+    --main-color: #292929;
+    --main-third: #eb8426;
+    --main-light: #d6d6d6;
+/*  */
+    --border-color: #E9E9E9;
+    --gray-color: #F5F6F8;
+/*  */
+    --_7C-color: #7CB93E;
+    --_FB-color: #FBF7D3;
+    --_33-color: #33ABC6;
+    --_1C-color: #1CCD8D;
+    --_3F-color: #3F65EA;
+    --_F6-color: #F64A69;
+    --_FF-color: #FFBDBD;
+    --_C0-color: #C0ABFD;
+
+    --_D3-color: #D3FBD9;
+    --_FF-color: #FFE4BD;
+    --_D9-color: #D9ABFD;
+    --_FD-color: #FDF0AB;
+/*  */
+
+    --header-bg-color: #fff9f3;    
+    --footer-bg-color: #5959D9;
+
+/*  */
 }
 
 *{
@@ -11,5 +47,5 @@ html{
     line-height: 1.6rem;
     font-family: 'Poppins';
     box-sizing: border-box;
-    
+    color: var(--text-color);
 }
