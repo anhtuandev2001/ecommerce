@@ -301,6 +301,13 @@ line-height: 16px;
   .nav__logo {
     margin-right: 0;
   }
+  .footer__item-tittle:hover{
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  .footer__item-item:hover{
+    opacity: 0.5;
+  }
 
   .pt-24 {
     padding-top: 24px;
@@ -502,6 +509,9 @@ margin-bottom: 8px;
 
 @media (min-width: 1023px) and (max-width: 1344px) {
     .nav {
+      padding: 0 24px;
+    }
+    #footer{
       padding: 0 24px;
     }
   }
