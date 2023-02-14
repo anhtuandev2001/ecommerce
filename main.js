@@ -42,3 +42,40 @@ tabs.forEach((tab, index) => {
     pane.classList.add("section__6-list--active");
   };
 });
+
+const button = $(".footer__info-scroll")
+
+button.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: `smooth`
+  })
+})
+
+const btnRights = $$('.button__navigation-right');
+const btnLefts = $$('.button__navigation-left');
+
+const slideItem = $$('.section__4-item ');
+
+let counter = 1;
+
+btnRights.forEach((btnRight,index)=>{
+  btnRight.onclick = () => {
+    if(counter<3){
+      $(".section__4-list").style.transform = `translateX(calc(-170px* ${counter}))`;
+      counter++;
+    }else{
+      $(".section__4-list").style.transform = `translateX(calc(0))`;
+      counter=0;
+    }
+  };
+});
+
+btnLefts.forEach((btnLeft,index)=>{
+  btnLeft.onclick = () => {
+    if(counter>1){
+      $(".section__4-list").style.transform = `translateX(calc(170px* ${counter-2}))`;
+      counter--;
+    }
+  };
+});

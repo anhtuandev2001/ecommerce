@@ -474,8 +474,16 @@ margin-bottom: 8px;
     margin-top: 0;
     margin-bottom: 0;
   }
+  .footer__item-tittle{
+    font-size: 14px;
+    line-height: 18px;
+  }
   .section__3-tittle{
     margin-bottom: 16px;
+  }
+  .footer__icon-down{
+    height: 12px;
+    width: 12px;
   }
 
   .img__logo {
