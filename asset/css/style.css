@@ -1153,3 +1153,16 @@ color: var(--main-white-color);
 .mr-27{
     margin-right: 27px;
 }
+
+.section__6-list{
+    display: none;
+}
+
+.section__6-ingredient--active{
+    color: var(--main-third);
+    height: 87px;
+}
+.section__6-list--active{
+    display: flex;
+}
+
