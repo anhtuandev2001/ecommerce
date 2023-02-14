@@ -168,6 +168,11 @@
     cursor: pointer;
 }
 
+.button__navigation:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
 .button__navigation {
     width: 48px;
     height: 48px;
