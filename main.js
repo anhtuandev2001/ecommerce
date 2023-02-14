@@ -71,11 +71,11 @@ btnRights.forEach((btnRight,index)=>{
   };
 });
 
-btnLefts.forEach((btnLeft,index)=>{
-  btnLeft.onclick = () => {
-    if(counter>1){
-      $(".section__4-list").style.transform = `translateX(calc(170px* ${counter-2}))`;
-      counter--;
-    }
-  };
-});
+// btnLefts.forEach((btnLeft,index)=>{
+//   btnLeft.onclick = () => {
+//     if(counter>1){
+//       $(".section__4-list").style.transform = `translateX(calc(170px* ${counter-2}))`;
+//       counter--;
+//     }
+//   };
+// });
