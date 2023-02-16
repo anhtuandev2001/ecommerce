@@ -1,14 +1,14 @@
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
-const navElemnt = $(".nav__menu");
-const navigationElement = $(".navigation__list");
+const navElemnt = $(".search__menu");
+const navigationElement = $(".navigation");
 
 navElemnt.onclick = function(){
     navigationElement.classList.toggle("display--flex")
 }
 
-const footerTittles = $$(".footer__item-tittle");
+const footerTittles = $$(".footer__item-title");
 const footerItems = $$(".footer__item-list");
 
 
@@ -18,7 +18,7 @@ footerTittles.forEach((tab, index) => {
 
   tab.onclick = function () {
     $(".footer__item-list.footer__item-list--active").classList.remove("footer__item-list--active");
-    $(".footer__item-tittle.footer__item--active").classList.remove("footer__item--active");
+    $(".footer__item-title.footer__item--active").classList.remove("footer__item--active");
     tab.classList.add("footer__item--active");
     footerItem.classList.add("footer__item-list--active");
 
@@ -26,8 +26,8 @@ footerTittles.forEach((tab, index) => {
   };
 });
 
-const tabs = $$(".section__6-ingredient");
-const panes = $$(".section__6-list");
+const tabs = $$(".category-2__item");
+const panes = $$(".category-2__product-list");
 
 
 tabs.forEach((tab, index) => {
@@ -35,11 +35,11 @@ tabs.forEach((tab, index) => {
 
   tab.onclick = function () {
     console.log(tab)
-    $(".section__6-ingredient.section__6-ingredient--active").classList.remove("section__6-ingredient--active");
-    $(".section__6-list.section__6-list--active").classList.remove("section__6-list--active");
+    $(".category-2__item.category-2__item--active").classList.remove("category-2__item--active");
+    $(".category-2__product-list.category-2__product-list--active").classList.remove("category-2__product-list--active");
     
-    this.classList.add("section__6-ingredient--active");
-    pane.classList.add("section__6-list--active");
+    this.classList.add("category-2__item--active");
+    pane.classList.add("category-2__product-list--active");
   };
 });
 
@@ -52,30 +52,30 @@ button.addEventListener('click', () => {
   })
 })
 
-const btnRights = $$('.button__navigation-right');
-const btnLefts = $$('.button__navigation-left');
+const btnRights = $$('.category__button-right');
+const btnLefts = $$('.category__button-left');
 
-const slideItem = $$('.section__4-item ');
 
-let counter = 1;
+
+let counter = 1; 
 
 btnRights.forEach((btnRight,index)=>{
   btnRight.onclick = () => {
     if(counter<3){
-      $(".section__4-list").style.transform = `translateX(calc(-170px* ${counter}))`;
+      $(".category__body-list").style.transform = `translateX(calc(-170px* ${counter}))`;
       counter++;
     }else{
-      $(".section__4-list").style.transform = `translateX(calc(0))`;
+      $(".category__body-list").style.transform = `translateX(calc(0))`;
       counter=0;
     }
   };
 });
 
-// btnLefts.forEach((btnLeft,index)=>{
-//   btnLeft.onclick = () => {
-//     if(counter>1){
-//       $(".section__4-list").style.transform = `translateX(calc(170px* ${counter-2}))`;
-//       counter--;
-//     }
-//   };
-// });
+btnLefts.forEach((btnLeft,index)=>{
+  btnLeft.onclick = () => {
+    if(counter>1){
+      $(".section__4-list").style.transform = `translateX(calc(170px* ${counter-2}))`;
+      counter--;
+    }
+  };
+});

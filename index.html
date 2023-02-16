@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,1058 +13,1200 @@
     <link rel="stylesheet" href="./asset/css/style.css">
     <link rel="stylesheet" href="./asset/css/reponsive.css">
 </head>
+
 <body>
-    <div id="header">
-        <div class="nav grid wide">
+    <header id="header">
+
+        <div class="nav grid">
             <div class="nav__container">
-                <div class="nav__logo">
+                <span class="nav__logo">
                     <img src="./asset/img/logo/E-commerce.svg" alt="img" class="img__logo">
-                </div>
-                <div class="nav__search search-jump-down">
-                    <div class="nav__menu">
-                        <img src="./asset/img/icon/Sort.svg" alt="img" class="nav__menu-icon">
+                </span>
+                <div class="search">
+                    <div class="search__menu">
+                        <img src="./asset/img/icon/Sort.svg" alt="img" class="search__menu-icon">
                     </div>
-                    <div class="nav-search-container">
-                        <div class="category">
-                            <div class="nav__category hide-one-mobile">
+                    <div class="search__container">
+                        <div class="search__category">
+                            <span class="search__category-content hide-one-mobile">
                                 All categories
-                                <img src="./asset/img/icon/arrow_down.svg" alt="img" class="icon__arrowd">
-                            </div>
-                            <ul class="category__list">
-                                <li class="category__item">interior</li>
-                                <li class="category__item">clothes</li>
-                                <li class="category__item">home tools</li>
-                                <li class="category__item">game console</li>
-                                <li class="category__item">food</li>
+                                <img src="./asset/img/icon/arrow_down.svg" alt="img"
+                                    class="search__category-icon icon__arrowd">
+                            </span>
+                            <ul class="search__category-list">
+                                <li class="search__category-item">
+                                    <a class="search__category-item-link" href="#">interior</a>
+                                </li>
+                                <li class="search__category-item">
+                                    <a class="search__category-item-link" href="#">clothes</a>
+                                </li>
+                                <li class="search__category-item">
+                                    <a class="search__category-item-link" href="#">home tools</a>
+                                </li>
+                                <li class="search__category-item">
+                                    <a class="search__category-item-link" href="#">game console</a>
+                                </li>
+                                <li class="search__category-item">
+                                    <a class="search__category-item-link" href="#">food</a>
+                                </li>
                             </ul>
                         </div>
-                        <form  class="search">
-                            <input type="text" required class="search" placeholder="Search anything">
-                        </form>
-                        <img src="./asset/img/icon/Search_alt_duotone_line.svg" alt="img" class="icon__search item__hover">
+                        <form->
+                            <input type="text" required class="search__input" placeholder="Search anything">
+                        </form->
+                        <img src="./asset/img/icon/Search_alt_duotone_line.svg" alt="img"
+                            class="search__form-icon item__hover">
                     </div>
                 </div>
                 <div class="nav__group">
-                    <div class="nav__help hide-one-mobile item__hover">
-                        Help
-                    </div>
-                    <div class="nav__account item__hover mr-27">
-                        <img src="./asset/img/icon/User.svg" alt="img" class="icon__account">
-                        <div class="nav__account-content hide-one-mobile ">Account</div>
-                    </div>
-                    <div class="nav__shopinng  item__hover ">
-                        <img src="./asset/img/icon/Bag_alt.svg" alt="img" class="icon__account">
-                        <div class="nav__account-content hide-one-mobile ">Shoping</div>
-                    </div>
+                    <ul class="nav__group-list">
+                        <li class="nav__group-item hide-one-mobile">
+                            <a href="" class="nav__group-item-link nav__help-link">Help</a>
+                        </li>
+                        <li class="nav__group-item">
+                            <a href="" class="nav__group-item-link nav__account-link">
+                                <img src="./asset/img/icon/User.svg" alt="img" class="nav__account-icon icon__account">
+                                <p class="nav__group-item-content hide-one-mobile ">Account</p>
+                            </a>
+                        </li>
+                        <li class="nav__group-item">
+                            <a href="" class="nav__group-item-link nav__shoping-link">
+                                <img src="./asset/img/icon/Bag_alt.svg" alt="img"
+                                    class="nav__shoping-icon icon__shoping">
+                                <p class="nav__group-item-content hide-one-mobile ">Shoping</p>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="navigation ">
+            <div class="navigation hide-on-table hide-one-mobile">
                 <ul class="navigation__list ">
-                    <li class="navigation__item item__hover">Jewelry & Accessories</li>
-                    <li class="navigation__item item__hover">Clothing & Shoes</li>
-                    <li class="navigation__item item__hover">Home & Living</li>
-                    <li class="navigation__item item__hover active">Wedding & Party</li>
-                    <li class="navigation__item item__hover">Toys & Entertainment</li>
-                    <li class="navigation__item item__hover">Art & Collectibles</li>
-                    <li class="navigation__item item__hover">Craft Supplies & Tools</li>
+                    <li class="navigation__item ">
+                        <a href="" class="navigation__item-link">Jewelry & Accessories</a>
+                    </li>
+                    <li class="navigation__item ">
+                        <a href="" class="navigation__item-link navigation__item--active">Clothing & Shoes</a>
+                    </li>
+                    <li class="navigation__item ">
+                        <a href="" class="navigation__item-link">Home & Living</a>
+                    </li>
+                    <li class="navigation__item ">
+                        <a href="" class="navigation__item-link">Wedding & Party</a>
+                    </li>
+                    <li class="navigation__item ">
+                        <a href="" class="navigation__item-link">Toys & Entertainment</a>
+                    </li>
+                    <li class="navigation__item ">
+                        <a href="" class="navigation__item-link">Art & Collectibles</a>
+                    </li>
+                    <li class="navigation__item ">
+                        <a href="" class="navigation__item-link">Craft Supplies & Tools</a>
+                    </li>
                 </ul>
             </div>
         </div>
-        <div class="layout"></div>
-    </div>
+    </header>
+    <!-- <main>
+        <section class="section__image">
+            <div class="container">
+                <div class="image__top">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+
+                </div>
+                <div class="image__bottom">
+
+                </div>
+            </div>
+        </section>
+        <section class="section__content">
+            <div class="container">
+
+            </div>
+        </section>
+    </main>
+    <footer></footer> -->
     <div id="body">
-        <div class="section__1">
-            <div class="grid wide">
+        <div class="topic">
+            <div class="grid">
                 <div class="row">
                     <div class=" col l-4 m-4 c-12 ">
-                        <div class="section__1-item">
-                            <img src="./asset/img/photo/section_1/unsplash_mO-_iF_FkCk.png" alt="img" class="section__1-img">
-                            <div class="section__1-content">Clothing & Shoes</div>
+                        <div class="topic__item">
+                            <img src="./asset/img/photo/topic/topic_1.png" alt="E-commerce" class="topic__img">
+                            <span class="topic__content">Clothing & Shoes</span>
                         </div>
                     </div>
-                    <div class=" col l-4 m-4 c-12  pt-24 mt-4">
-                        <div class="section__1-item">
-                            <img src="./asset/img/photo/section_1/unsplash_gDrUY7QUeng.png" alt="img" class="section__1-img">
-                            <div class="section__1-content">Home & Living</div>
+                    <div class=" col l-4 m-4 c-12">
+                        <div class="topic__item">
+                            <img src="./asset/img/photo/topic/topic_2.png" alt="img" class="topic__img">
+                            <span class="topic__content">Home & Living</span>
                         </div>
                     </div>
-                    <div class=" col l-4 m-4 c-12  pt-24">
-                        <div class="section__1-item">
-                            <img src="./asset/img/photo/section_1/unsplash_q4LIvI9NN6Y.png" alt="img" class="section__1-img">
-                            <div class="section__1-content">Art & Collectibles</div>
+                    <div class=" col l-4 m-4 c-12">
+                        <div class="topic__item">
+                            <img src="./asset/img/photo/topic/topic_3.png" alt="img" class="topic__img">
+                            <span class="topic__content">Art & Collectibles</span>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="layout hide-on-table hide-one-mobile"></div>
         </div>
-        <div class="section__2">
-            <div class="grid wide  ">
-                
-                <div class="row no-wrap scroll-snap" >
+        <div class="produce">
+            <div class="grid">
+                <div class="row no-wrap scroll-snap">
                     <div class="col l-3 m-4 c-12 scroll-snap-start  ">
-                        <div class="product color--D3 ">
-                            <div class="product__card">
-                                    <img src="./asset/img/photo/section_2/product_1.png" alt="img" class="product__img">
-                                    <div class="product__item-color">
-                                        <span class="product__tittle">Colors</span>
-                                        <ul class="product__list">
-                                            <li class="product__item color__product--7C"></li>
-                                            <li class="product__item color__product--33"></li>
-                                            <li class="product__item color__product--1C"></li>
-                                            <li class="product__item color__product--F6"></li>
-                                        </ul>
-                                    </div>
+                        <div class="product__card color--D3 ">
+                            <div class="product__container">
+                                <img src="./asset/img/photo/product/product_1.png" alt="img" class="product__img">
+                                <div class="product__color">
+                                    <span class="product__color-title">Colors</span>
+                                    <ul class="product__color-list">
+                                        <li class="product__color-item color__product--7C"></li>
+                                        <li class="product__color-item color__product--33"></li>
+                                        <li class="product__color-item color__product--1C"></li>
+                                        <li class="product__color-item color__product--F6"></li>
+                                    </ul>
                                 </div>
-                            <div class="product__content">Vonna Neva Walnut Sandalye Chair</div>
-                            <div class="product__price">195,13 $</div>
-                            <div class="section__2-button button__favorite ">
-                                <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                             </div>
+                            <p class="product__content">Vonna Neva Walnut Sandalye Chair</p>
+                            <p class="product__price">195,13 $</p>
+                            <button class="button__favorite ">
+                                <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                            </button>
                         </div>
                     </div>
                     <div class="col l-3 m-4 c-12 scroll-snap-start ">
-                        <div class="product color--FF ">
-                            <div class="product__card">
-                                    <img src="./asset/img/photo/section_2/product_2.png" alt="img" class="product__img">
-                                    <div class="product__item-color">
-                                        <span class="product__tittle">Colors</span>
-                                        <ul class="product__list">
-                                            <li class="product__item color__product--7C"></li>
-                                            <li class="product__item color__product--33"></li>
-                                            <li class="product__item color__product--1C"></li>
-                                            <li class="product__item color__product--F6"></li>
-                                        </ul>
-                                    </div>
+                        <div class="product__card color--FF ">
+                            <div class="product__container">
+                                <img src="./asset/img/photo/product/product_2.png" alt="img" class="product__img">
+                                <div class="product__color">
+                                    <span class="product__color-title">Colors</span>
+                                    <ul class="product__color-list">
+                                        <li class="product__color-item color__product--7C"></li>
+                                        <li class="product__color-item color__product--33"></li>
+                                        <li class="product__color-item color__product--1C"></li>
+                                        <li class="product__color-item color__product--F6"></li>
+                                    </ul>
                                 </div>
-                            <div class="product__content">Wood lamp, Floor Lamp, Lambader, Decorative</div>
-                            <div class="product__price">458,43 $</div>
-                            <div class="section__2-button button__favorite ">
-                                <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                             </div>
+                            <p class="product__content">Wood lamp, Floor Lamp, Lambader, Decorative</p>
+                            <p class="product__price">458,43 $</p>
+                            <button class="button__favorite ">
+                                <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                            </button>
                         </div>
                     </div>
                     <div class="col l-3 m-4 c-12 scroll-snap-start ">
-                        <div class="product color--D9 ">
-                            <div class="product__card">
-                                    <img src="./asset/img/photo/section_2/product_3.png" alt="img" class="product__img">
-                                    <div class="product__item-color">
-                                        <span class="product__tittle">Colors</span>
-                                        <ul class="product__list">
-                                            <li class="product__item color__product--7C"></li>
-                                            <li class="product__item color__product--33"></li>
-                                            <li class="product__item color__product--1C"></li>
-                                            <li class="product__item color__product--F6"></li>
-                                        </ul>
-                                    </div>
+                        <div class="product__card color--D9 ">
+                            <div class="product__container">
+                                <img src="./asset/img/photo/product/product_3.png" alt="img" class="product__img">
+                                <div class="product__color">
+                                    <span class="product__color-title">Colors</span>
+                                    <ul class="product__color-list">
+                                        <li class="product__color-item color__product--7C"></li>
+                                        <li class="product__color-item color__product--33"></li>
+                                        <li class="product__color-item color__product--1C"></li>
+                                        <li class="product__color-item color__product--F6"></li>
+                                    </ul>
                                 </div>
-                            <div class="product__content">NOCKEBY 3-Seat Sofa Cover Slipcover Hand Made With Multiple</div>
-                            <div class="product__price">789,67 $</div>
-                            <div class="section__2-button button__favorite ">
-                                <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                             </div>
+                            <p class="product__content">NOCKEBY 3-Seat Sofa Cover Slipcover Hand Made With Multiple
+                            </p>
+                            <p class="product__price">789,67 $</p>
+                            <button class="button__favorite ">
+                                <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                            </button>
                         </div>
                     </div>
                     <div class="col l-3 m-4 c-12 scroll-snap-start ">
-                        <div class="product color--FD ">
-                            <div class="product__card">
-                                    <img src="./asset/img/photo/section_2/product_4.png" alt="img" class="product__img">
-                                    <div class="product__item-color">
-                                        <span class="product__tittle">Colors</span>
-                                        <ul class="product__list">
-                                            <li class="product__item color__product--7C"></li>
-                                            <li class="product__item color__product--33"></li>
-                                            <li class="product__item color__product--1C"></li>
-                                            <li class="product__item color__product--F6"></li>
-                                        </ul>
-                                    </div>
+                        <div class="product__card color--FD ">
+                            <div class="product__container">
+                                <img src="./asset/img/photo/product/product_4.png" alt="img" class="product__img">
+                                <div class="product__color">
+                                    <span class="product__color-title">Colors</span>
+                                    <ul class="product__color-list">
+                                        <li class="product__color-item color__product--7C"></li>
+                                        <li class="product__color-item color__product--33"></li>
+                                        <li class="product__color-item color__product--1C"></li>
+                                        <li class="product__color-item color__product--F6"></li>
+                                    </ul>
                                 </div>
-                            <div class="product__content">Lace Punch Needle Pillow Covers with invisible zipper, 16*16 inches</div>
-                            <div class="product__price">43,23 $</div>
-                            <div class="section__2-button button__favorite ">
-                                <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                             </div>
+                            <p class="product__content">Lace Punch Needle Pillow Covers with invisible zipper, 16*16
+                                inches</p>
+                            <p class="product__price">43,23 $</p>
+                            <button class="button__favorite ">
+                                <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                            </button>
                         </div>
                     </div>
                 </div>
                 <div class="pagination show-on-mobile">
                     <ul class="pagination__list">
                         <li class="pagination__item pagination__item--active">
-                            
+
                         </li>
                         <li class="pagination__item">
-                            
+
                         </li>
                         <li class="pagination__item">
-                            
+
                         </li>
                         <li class="pagination__item">
-                            
+
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="section__long ">
-            <div class="grid wide ">
+        <div class="commit section">
+            <div class="grid ">
                 <div class="row no-wrap scroll-snap scroll-p-8">
                     <div class="l-4 col m-4 c-12">
-                        <div class="section__3-item  scroll-snap-start">
-                            <div class="section__3-content">
-                                <div class="section__3-tittle">
-                                    A community doing good
-                                </div>
-                                <div class="section__3-description">
-                                    Commerce is a global online marketplace, where people.
-                                </div>
+                        <div class="commit__item  scroll-snap-start">
+                            <div class="commit__content">
+                                <h3 class="commit__title">A community doing good</h3>
+                                <p class="commit__description">Commerce is a global online marketplace, where people.
+                                </p>
                             </div>
-                            <img src="./asset/img/photo/section_3/img_1.png" class="section__3-img" alt="img">
+                            <img src="./asset/img/photo/commit/commit_1.png" class="commit__img" alt="img">
                         </div>
                     </div>
                     <div class="l-4 col m-4 c-12">
-                        <div class="section__3-item ">
-                            <div class="section__3-content">
-                                <div class="section__3-tittle">
-                                    Support independent creators
-                                </div>
-                                <div class="section__3-description">
-                                    Just millions of people selling the things they love.
-                                </div>
+                        <div class="commit__item ">
+                            <div class="commit__content">
+                                <h3 class="commit__title">Support independent creators</h3>
+                                <p class="commit__description">Just millions of people selling the things they love.</p>
                             </div>
-                            <img src="./asset/img/photo/section_3/img_2.png" class="section__3-img" alt="img">
+                            <img src="./asset/img/photo/commit/commit_2.png" class="commit__img" alt="img">
                         </div>
                     </div>
                     <div class="l-4 col m-4 c-12">
-                        <div class="section__3-item ">
-                            <div class="section__3-content">
-                                <div class="section__3-tittle">
-                                    Peace of mind
-                                </div>
-                                <div class="section__3-description">
-                                    Privacy is the highest priority of our dedicated team.
-                                </div>
+                        <div class="commit__item ">
+                            <div class="commit__content">
+                                <h3 class="commit__title">Peace of mind</h3>
+                                <p class="commit__description">Privacy is the highest priority of our dedicated team.
+                                </p>
                             </div>
-                            <img src="./asset/img/photo/section_3/img_3.png" class="section__3-img" alt="img">
+                            <img src="./asset/img/photo/commit/commit_3.png" class="commit__img" alt="img">
                         </div>
                     </div>
                 </div>
                 <div class="pagination show-on-mobile">
                     <ul class="pagination__list">
                         <li class="pagination__item pagination__item--active">
-                            
+
                         </li>
                         <li class="pagination__item">
-                            
+
                         </li>
                         <li class="pagination__item">
-                            
+
                         </li>
                         <li class="pagination__item hide-one-mobile">
-                            
+
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="section__long grid wide p-mobile-16">
-            <div class="section__4-heading">
-                <div class="section__4-tittle">Find things you'll love. Support independent sellers.</div>
-                <div class="section__4-tittle-mobile">Find things you'll love.</div>
-                <div class="section__4-tittle-mobile">Support independent sellers.</div>
-                <div class="section__4-text">Only on polka.</div>
+        <div class="category section grid p-mobile-16">
+            <div class="category__heading">
+                <h2 class="category__headine">Find things you'll love. Support independent sellers.</h2>
+                <p class="category__sub-headine">Only on polka.</p>
             </div>
-            <div class="section__4-container">
-                <div class="section__4-button-left button__navigation button__navigation-left hide-on-table hide-one-mobile" >
+            <div class="category__container">
+                <button class="category__button-left button__navigation hide-on-table hide-one-mobile">
                     <img src="./asset/img/icon/Expand_left_light.svg" alt="img" class="button__navigation-img">
-                </div>
-                <div class="section__4-button-right button__navigation button__navigation-right hide-on-table hide-one-mobile">
+                </button>
+                <button class="category__button-right button__navigation  hide-on-table hide-one-mobile">
                     <img src="./asset/img/icon/Expand_right_light.svg" alt="img" class="button__navigation-img">
-                </div>
-                <div class="section__4-body scroll-snap">
-                    <div class="section__4-list  p-8">
-                        <div class="section__4-item ">
-                                <div class="section__4-img">
-                                    <img src="./asset/img/photo/section_4/img_1.jpg" alt="img" class="section__4-img-chidl">
-                                </div>
-                                <div class="section__4-name">Craft Kits</div>
+                </button>
+                <div class="category__body scroll-snap">
+                    <ul class="category__body-list">
+                        <li class="category__body-item">
+                            <i class="category__body-img">
+                                <img src="./asset/img/photo/category_1/category_1.jpg" alt="img"
+                                    class="category__body-img-child">
+                            </i>
+                            <p class="category__body-item-name">Craft Kits</p>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="category__body-img">
+                                <img src="./asset/img/photo/category_1/category_2.jpg" alt="img"
+                                    class="category__body-img-child">
                             </div>
-                        <div class="section__4-item">
-                                <div class="section__4-img">
-                                    <img src="./asset/img/photo/section_4/img_2.jpg" alt="img" class="section__4-img-chidl">
-                                </div>
-                                <div class="section__4-name">Throw Pillows</div>
+                            <p class="category__body-item-name">Throw Pillows</p>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="category__body-img">
+                                <img src="./asset/img/photo/category_1/category_3.jpg" alt="img"
+                                    class="category__body-img-child">
                             </div>
-                        <div class="section__4-item">
-                                <div class="section__4-img">
-                                    <img src="./asset/img/photo/section_4/img_3.jpg" alt="img" class="section__4-img-chidl">
-                                </div>
-                                <div class="section__4-name">Natural Glass</div>
+                            <p class="category__body-item-name">Natural Glass</p>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="category__body-img">
+                                <img src="./asset/img/photo/category_1/category_4.jpg" alt="img"
+                                    class="category__body-img-child">
                             </div>
-                        <div class="section__4-item">
-                                <div class="section__4-img">
-                                    <img src="./asset/img/photo/section_4/img_4.jpg" alt="img" class="section__4-img-chidl">
-                                </div>
-                                <div class="section__4-name">Self-care</div>
+                            <p class="category__body-item-name">Self-care</p>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="category__body-img">
+                                <img src="./asset/img/photo/category_1/category_5.jpg" alt="img"
+                                    class="category__body-img-child">
                             </div>
-                        <div class="section__4-item">
-                                <div class="section__4-img">
-                                    <img src="./asset/img/photo/section_4/img_5.jpg" alt="img" class="section__4-img-chidl">
-                                </div>
-                                <div class="section__4-name">Gift Ideas</div>
+                            <p class="category__body-item-name">Gift Ideas</p>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="category__body-img">
+                                <img src="./asset/img/photo/category_1/category_6.jpg" alt="img"
+                                    class="category__body-img-child">
                             </div>
-                        <div class="section__4-item">
-                                <div class="section__4-img">
-                                    <img src="./asset/img/photo/section_4/img_6.jpg" alt="img" class="section__4-img-chidl">
-                                </div>
-                                <div class="section__4-name">Wall Decor</div>
+                            <p class="category__body-item-name">Wall Decor</p>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="category__body-img">
+                                <img src="./asset/img/photo/category_1/category_7.jpg" alt="img"
+                                    class="category__body-img-child">
                             </div>
-                        <div class="section__4-item">
-                                <div class="section__4-img">
-                                    <img src="./asset/img/photo/section_4/img_7.jpg" alt="img" class="section__4-img-chidl">
-                                </div>
-                                <div class="section__4-name">Wedding</div>
+                            <p class="category__body-item-name">Wedding</p>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="category__body-img">
+                                <img src="./asset/img/photo/category_1/category_8.jpg" alt="img"
+                                    class="category__body-img-child">
                             </div>
-                        <div class="section__4-item">
-                                <div class="section__4-img">
-                                    <img src="./asset/img/photo/section_4/img_8.jpg" alt="img" class="section__4-img-chidl">
-                                </div>
-                                <div class="section__4-name">Life Style</div>
+                            <p class="category__body-item-name">Life Style</p>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="category__body-img">
+                                <img src="./asset/img/photo/category_1/category_8.jpg" alt="img"
+                                    class="category__body-img-child">
                             </div>
-                            <div class="section__4-item">
-                                <div class="section__4-img">
-                                    <img src="./asset/img/photo/section_4/img_8.jpg" alt="img" class="section__4-img-chidl">
-                                </div>
-                                <div class="section__4-name">Life Style</div>
+                            <p class="category__body-item-name">Life Style</p>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="category__body-img">
+                                <img src="./asset/img/photo/category_1/category_8.jpg" alt="img"
+                                    class="category__body-img-child">
                             </div>
-                            <div class="section__4-item">
-                                <div class="section__4-img">
-                                    <img src="./asset/img/photo/section_4/img_8.jpg" alt="img" class="section__4-img-chidl">
-                                </div>
-                                <div class="section__4-name">Life Style</div>
-                            </div>
-                    </div>
+                            <p class="category__body-item-name">Life Style</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="pagination show-on-mobile">
                 <ul class="pagination__list">
                     <li class="pagination__item pagination__item--active">
-                        
+
                     </li>
                     <li class="pagination__item">
-                        
+
                     </li>
                     <li class="pagination__item">
-                        
+
                     </li>
                     <li class="pagination__item hide-one-mobile">
-                        
+
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="section__long grid wide p-mobile-16">
-            <div class="section__5-heading">
-                <div class="section__5-tittle">Discover unique hand-picked items</div>
-                <a href="" class="section__5-all hide-one-mobile">View all
-                    <img src="./asset/img/icon/Arrow_right.svg" alt="img" class="icon_arrow-right">
+        <div class="category section grid p-mobile-16">
+            <div class="category__heading category__heading--flex">
+                <h2 class="category__headine">Discover unique hand-picked items</h2>
+                <a href="" class="view-all hide-one-mobile">View all
+                    <img src="./asset/img/icon/Arrow_right.svg" alt="img" class="icon__arrow-right view-all-icon">
                 </a>
             </div>
-            <div class="section__5-container">
-                <div class="section__5-button-left button__navigation button__navigation-left hide-on-table hide-one-mobile">
+            <div class="category__container pb-6">
+                <button class="category__button-left button__navigation hide-on-table hide-one-mobile">
                     <img src="./asset/img/icon/Expand_left_light.svg" alt="img" class="button__navigation-img">
-                </div>
-                <div class="section__5-button-right button__navigation button__navigation-right hide-on-table hide-one-mobile" onclick = >
+                </button>
+                <button class="category__button-right button__navigation  hide-on-table hide-one-mobile">
                     <img src="./asset/img/icon/Expand_right_light.svg" alt="img" class="button__navigation-img">
+                </button>
+                <div class="category__body pb-6 scroll-snap">
+                    <ul class="category__body-list">
+                        <li class="category__body-item">
+                            <div class="product-card-2">
+                                <div class="product-card-2__img">
+                                    <img src="./asset/img/photo/section_5/img_1.png" alt="img"
+                                        class="product-card-2__img-child">
+                                </div>
+                                <p class="product-card-2__name">Distressed Tote Leather Bag Leather Bag</p>
+                                <span class="product-card-2__price">216,27 $</span>
+                                <button class="button__favorite product-card-2__button ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
+                            </div>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="product-card-2">
+                                <div class="product-card-2__img">
+                                    <img src="./asset/img/photo/section_5/img_1.png" alt="img"
+                                        class="product-card-2__img-child">
+                                </div>
+                                <p class="product-card-2__name">Distressed Tote Leather Bag Leather Bag</p>
+                                <span class="product-card-2__price">216,27 $</span>
+                                <button class="button__favorite product-card-2__button ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
+                            </div>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="product-card-2">
+                                <div class="product-card-2__img">
+                                    <img src="./asset/img/photo/section_5/img_1.png" alt="img"
+                                        class="product-card-2__img-child">
+                                </div>
+                                <p class="product-card-2__name">Distressed Tote Leather Bag Leather Bag</p>
+                                <span class="product-card-2__price">216,27 $</span>
+                                <button class="button__favorite product-card-2__button ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
+                            </div>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="product-card-2">
+                                <div class="product-card-2__img">
+                                    <img src="./asset/img/photo/section_5/img_1.png" alt="img"
+                                        class="product-card-2__img-child">
+                                </div>
+                                <p class="product-card-2__name">Distressed Tote Leather Bag Leather Bag</p>
+                                <span class="product-card-2__price">216,27 $</span>
+                                <button class="button__favorite product-card-2__button ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
+                            </div>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="product-card-2">
+                                <div class="product-card-2__img">
+                                    <img src="./asset/img/photo/section_5/img_1.png" alt="img"
+                                        class="product-card-2__img-child">
+                                </div>
+                                <p class="product-card-2__name">Distressed Tote Leather Bag Leather Bag</p>
+                                <span class="product-card-2__price">216,27 $</span>
+                                <button class="button__favorite product-card-2__button ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
+                            </div>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="product-card-2">
+                                <div class="product-card-2__img">
+                                    <img src="./asset/img/photo/section_5/img_1.png" alt="img"
+                                        class="product-card-2__img-child">
+                                </div>
+                                <p class="product-card-2__name">Distressed Tote Leather Bag Leather Bag</p>
+                                <span class="product-card-2__price">216,27 $</span>
+                                <button class="button__favorite product-card-2__button ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
+                            </div>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="product-card-2">
+                                <div class="product-card-2__img">
+                                    <img src="./asset/img/photo/section_5/img_1.png" alt="img"
+                                        class="product-card-2__img-child">
+                                </div>
+                                <p class="product-card-2__name">Distressed Tote Leather Bag Leather Bag</p>
+                                <span class="product-card-2__price">216,27 $</span>
+                                <button class="button__favorite product-card-2__button ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
+                            </div>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="product-card-2">
+                                <div class="product-card-2__img">
+                                    <img src="./asset/img/photo/section_5/img_1.png" alt="img"
+                                        class="product-card-2__img-child">
+                                </div>
+                                <p class="product-card-2__name">Distressed Tote Leather Bag Leather Bag</p>
+                                <span class="product-card-2__price">216,27 $</span>
+                                <button class="button__favorite product-card-2__button ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <div class="section__5-list scroll-snap">
-                    <div class="product__card-2-item">
-                            <div class="product__card-2-photo">
-                                <img src="./asset/img/photo/section_5/img_1.png" alt="img" class="product__card-2-img">
-                            </div>
-                            <div class="product__card-2-name">Distressed Tote Leather Bag Leather Bag</div>
-                            <div class="product__card-2-price">216,27 $</div>
-                            <div class="product__card-2-button button__favorite">
-                                <img src="./asset/img/icon/Favorite.svg" alt="img" class="section__2-favortite">
-                            </div>
-                        </div>
-                    <div class="product__card-2-item">
-                            <div class="product__card-2-photo">
-                                <img src="./asset/img/photo/section_5/img_1.png" alt="img" class="product__card-2-img">
-                            </div>
-                            <div class="product__card-2-name">Distressed Tote Leather Bag Leather Bag</div>
-                            <div class="product__card-2-price">216,27 $</div>
-                            <div class="product__card-2-button button__favorite">
-                                <img src="./asset/img/icon/Favorite.svg" alt="img" class="section__2-favortite">
-                            </div>
-                        </div>
-                    <div class="product__card-2-item">
-                            <div class="product__card-2-photo">
-                                <img src="./asset/img/photo/section_5/img_1.png" alt="img" class="product__card-2-img">
-                            </div>
-                            <div class="product__card-2-name">Distressed Tote Leather Bag Leather Bag</div>
-                            <div class="product__card-2-price">216,27 $</div>
-                            <div class="product__card-2-button button__favorite">
-                                <img src="./asset/img/icon/Favorite.svg" alt="img" class="section__2-favortite">
-                            </div>
-                        </div>
-                    <div class="product__card-2-item">
-                            <div class="product__card-2-photo">
-                                <img src="./asset/img/photo/section_5/img_1.png" alt="img" class="product__card-2-img">
-                            </div>
-                            <div class="product__card-2-name">Distressed Tote Leather Bag Leather Bag</div>
-                            <div class="product__card-2-price">216,27 $</div>
-                            <div class="product__card-2-button button__favorite">
-                                <img src="./asset/img/icon/Favorite.svg" alt="img" class="section__2-favortite">
-                            </div>
-                        </div>
-                    <div class="product__card-2-item">
-                            <div class="product__card-2-photo">
-                                <img src="./asset/img/photo/section_5/img_1.png" alt="img" class="product__card-2-img">
-                            </div>
-                            <div class="product__card-2-name">Distressed Tote Leather Bag Leather Bag</div>
-                            <div class="product__card-2-price">216,27 $</div>
-                            <div class="product__card-2-button button__favorite">
-                                <img src="./asset/img/icon/Favorite.svg" alt="img" class="section__2-favortite">
-                            </div>
-                        </div>
-                    <div class="product__card-2-item">
-                            <div class="product__card-2-photo">
-                                <img src="./asset/img/photo/section_5/img_1.png" alt="img" class="product__card-2-img">
-                            </div>
-                            <div class="product__card-2-name">Distressed Tote Leather Bag Leather Bag</div>
-                            <div class="product__card-2-price">216,27 $</div>
-                            <div class="product__card-2-button button__favorite">
-                                <img src="./asset/img/icon/Favorite.svg" alt="img" class="section__2-favortite">
-                            </div>
-                        </div>
-                    <div class="product__card-2-item">
-                            <div class="product__card-2-photo">
-                                <img src="./asset/img/photo/section_5/img_1.png" alt="img" class="product__card-2-img">
-                            </div>
-                            <div class="product__card-2-name">Distressed Tote Leather Bag Leather Bag</div>
-                            <div class="product__card-2-price">216,27 $</div>
-                            <div class="product__card-2-button button__favorite">
-                                <img src="./asset/img/icon/Favorite.svg" alt="img" class="section__2-favortite">
-                            </div>
-                        </div>
-                    <div class="product__card-2-item">
-                            <div class="product__card-2-photo">
-                                <img src="./asset/img/photo/section_5/img_1.png" alt="img" class="product__card-2-img">
-                            </div>
-                            <div class="product__card-2-name">Distressed Tote Leather Bag Leather Bag</div>
-                            <div class="product__card-2-price">216,27 $</div>
-                            <div class="product__card-2-button button__favorite">
-                                <img src="./asset/img/icon/Favorite.svg" alt="img" class="section__2-favortite">
-                            </div>
-                        </div>
-                </div>
-            <div class="pagination show-on-table show-on-mobile">
+            </div>
+            <div class="pagination show-on-mobile show-on-table">
                 <ul class="pagination__list">
+                    <li class="pagination__item pagination__item--active"></li>
                     <li class="pagination__item">
-                        
-                    </li>
-                    <li class="pagination__item pagination__item--active">
-                        
+
                     </li>
                     <li class="pagination__item">
-                        
+
                     </li>
                     <li class="pagination__item hide-one-mobile">
-                        
+
                     </li>
                 </ul>
             </div>
-            </div>
         </div>
-        <div class="section__long grid wide p-mobile-16">
-            <ul class="section__6-category">
-                <li class="section__6-ingredient  scroll-snap-start  section__6-ingredient--active">
-                    <div class="section__6-ingredient-text">
+        <div class="category-2 section grid p-mobile-16">
+            <ul class="category-2__list">
+                <li class="category-2__item  scroll-snap-start  category-2__item--active">
+                    <div class="category-2__item-text">
                         Modern Farmhouse
-                    </div> 
+                    </div>
                 </li>
-                <li class="section__6-ingredient scroll-snap-start">
-                    <div class="section__6-ingredient-text ">
+                <li class="category-2__item scroll-snap-start">
+                    <div class="category-2__item-text ">
                         Modern Farmhouse
-                    </div> 
+                    </div>
                 </li>
-                <li class="section__6-ingredient scroll-snap-start">
-                    <div class="section__6-ingredient-text ">
+                <li class="category-2__item scroll-snap-start">
+                    <div class="category-2__item-text ">
                         Modern Farmhouse
-                    </div> 
+                    </div>
                 </li>
-                <li class="section__6-ingredient scroll-snap-start">
-                    <div class="section__6-ingredient-text ">
+                <li class="category-2__item scroll-snap-start">
+                    <div class="category-2__item-text ">
                         Modern Farmhouse
-                    </div> 
+                    </div>
                 </li>
-                <li class="section__6-ingredient scroll-snap-start">
-                    <div class="section__6-ingredient-text ">
+                <li class="category-2__item scroll-snap-start">
+                    <div class="category-2__item-text ">
                         Modern Farmhouse
-                    </div> 
+                    </div>
                 </li>
-                <li class="section__6-ingredient scroll-snap-start">
-                    <div class="section__6-ingredient-text ">
+                <li class="category-2__item scroll-snap-start">
+                    <div class="category-2__item-text ">
                         Modern Farmhouse
-                    </div> 
+                    </div>
                 </li>
-            </ul>   
-            <div class="section__6-container">
-                <div class="grid wide">
-                    <div class="row no-wrap scroll-snap no-mg section__6-list section__6-list--active">
-                        <div class="col l-3 m-4 c-6  unset-flex scroll-snap-start ">
-                            <div class="product  ">
-                                <img src="./asset/img/photo/section_6/img_1.jpg" alt="img" class="section__6-photo">
+            </ul>
+            <div class="category-2__container">
+                <div class="grid">
+                    <div
+                        class="row no-wrap scroll-snap no-mg category-2__product-list category-2__product-list--active">
+                        <div class="col l-3 m-4 c-6 unset-flex scroll-snap-start ">
+                            <div class="product__item-photo">
+                                <img src="./asset/img/photo/section_6/img_1.jpg" alt="img" class="category-2__img">
                             </div>
                         </div>
                         <div class="col l-3 m-4 c-6 unset-flex scroll-snap-start ">
-                            <div class="product color__product--FB  height-product">
-                                <div class="product__card">
-                                        <img src="./asset/img/photo/section_6/img_1.png" alt="img" class="product__img">
-                                        <div class="product__item-color">
-                                            <span class="product__tittle">Colors</span>
-                                            <ul class="product__list">
-                                                <li class="product__item color__product--7C"></li>
-                                                <li class="product__item color__product--33"></li>
-                                                <li class="product__item color__product--1C"></li>
-                                                <li class="product__item color__product--F6"></li>
-                                            </ul>
-                                        </div>
+                            <div class="product__card color__product--FB  height-product">
+                                <div class="product__container">
+                                    <img src="./asset/img/photo/section_6/img_1.png" alt="img" class="product__img">
+                                    <div class="product__color">
+                                        <span class="product__color-title">Colors</span>
+                                        <ul class="product__color-list">
+                                            <li class="product__color-item color__product--7C"></li>
+                                            <li class="product__color-item color__product--33"></li>
+                                            <li class="product__color-item color__product--1C"></li>
+                                            <li class="product__color-item color__product--F6"></li>
+                                        </ul>
                                     </div>
-                                <div class="product__content">Rovena Riva Series 6 Pcs. Wide Seating Claret Red Chair</div>
-                                <div class="product__price">195,13 $</div>
-                                <div class="section__2-button button__favorite ">
-                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                                 </div>
+                                <p class="product__content">Rovena Riva Series 6 Pcs. Seating Claret Red Chair</p>
+                                <p class="product__price">195,13 $</p>
+                                <button class="button__favorite ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
                             </div>
                         </div>
                         <div class="col l-3 m-4 c-6 unset-flex scroll-snap-start ">
-                            <div class="product color__product--FF  height-product">
-                                <div class="product__card">
-                                        <img src="./asset/img/photo/section_6/img_2.png" alt="img" class="product__img">
-                                        <div class="product__item-color">
-                                            <span class="product__tittle">Colors</span>
-                                            <ul class="product__list">
-                                                <li class="product__item color__product--7C"></li>
-                                                <li class="product__item color__product--33"></li>
-                                                <li class="product__item color__product--1C"></li>
-                                                <li class="product__item color__product--F6"></li>
-                                            </ul>
-                                        </div>
+                            <div class="product__card color__product--FF  height-product">
+                                <div class="product__container">
+                                    <img src="./asset/img/photo/section_6/img_2.png" alt="img" class="product__img">
+                                    <div class="product__color">
+                                        <span class="product__color-title">Colors</span>
+                                        <ul class="product__color-list">
+                                            <li class="product__color-item color__product--7C"></li>
+                                            <li class="product__color-item color__product--33"></li>
+                                            <li class="product__color-item color__product--1C"></li>
+                                            <li class="product__color-item color__product--F6"></li>
+                                        </ul>
                                     </div>
-                                <div class="product__content">Iphone 12 128 GB (Red) Apple </div>
-                                <div class="product__price">458,43 $</div>
-                                <div class="section__2-button button__favorite ">
-                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                                 </div>
+                                <p class="product__content">Iphone 12 128 GB (Red) Apple </p>
+                                <p class="product__price">458,43 $</p>
+                                <button class="button__favorite ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
                             </div>
                         </div>
                         <div class="col l-3 m-4 c-6 unset-flex scroll-snap-start ">
-                            <div class="product color__product--C0  height-product">
-                                <div class="product__card">
-                                        <img src="./asset/img/photo/section_6/img_3.png" alt="img" class="product__img">
-                                        <div class="product__item-color">
-                                            <span class="product__tittle">Colors</span>
-                                            <ul class="product__list">
-                                                <li class="product__item color__product--7C"></li>
-                                                <li class="product__item color__product--33"></li>
-                                                <li class="product__item color__product--1C"></li>
-                                                <li class="product__item color__product--F6"></li>
-                                            </ul>
-                                        </div>
+                            <div class="product__card color__product--C0  height-product">
+                                <div class="product__container">
+                                    <img src="./asset/img/photo/section_6/img_3.png" alt="img" class="product__img">
+                                    <div class="product__color">
+                                        <span class="product__color-title">Colors</span>
+                                        <ul class="product__color-list">
+                                            <li class="product__color-item color__product--7C"></li>
+                                            <li class="product__color-item color__product--33"></li>
+                                            <li class="product__color-item color__product--1C"></li>
+                                            <li class="product__color-item color__product--F6"></li>
+                                        </ul>
                                     </div>
-                                <div class="product__content">Rovena Riva Series 6 Pcs. Wide Seating Claret Red Chair</div>
-                                <div class="product__price">789,67 $</div>
-                                <div class="section__2-button button__favorite ">
-                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                                 </div>
+                                <p class="product__content">Rovena Riva Series 6 Pcs. Seating Claret Red Chair
+                                </p>
+                                <p class="product__price">789,67 $</p>
+                                <button class="button__favorite ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
                             </div>
                         </div>
                     </div>
-                    <div class="row no-wrap scroll-snap no-mg section__6-list">
+                    <div class="row no-wrap scroll-snap no-mg category-2__product-list">
                         <div class="col l-3 m-4 c-6  unset-flex scroll-snap-start ">
-                            <div class="product  ">
+                            <div class="product__item-photo">
                                 <img src="./asset/img/photo/section_6/img_1.jpg" alt="img" class="section__6-photo">
                             </div>
                         </div>
                         <div class="col l-3 m-4 c-6 unset-flex scroll-snap-start ">
-                            <div class="product color__product--FF  height-product">
-                                <div class="product__card">
-                                        <img src="./asset/img/photo/section_6/img_2.png" alt="img" class="product__img">
-                                        <div class="product__item-color">
-                                            <span class="product__tittle">Colors</span>
-                                            <ul class="product__list">
-                                                <li class="product__item color__product--7C"></li>
-                                                <li class="product__item color__product--33"></li>
-                                                <li class="product__item color__product--1C"></li>
-                                                <li class="product__item color__product--F6"></li>
-                                            </ul>
-                                        </div>
+                            <div class="product__card color__product--FF  height-product">
+                                <div class="product__container">
+                                    <img src="./asset/img/photo/section_6/img_2.png" alt="img" class="product__img">
+                                    <div class="product__color">
+                                        <span class="product__color-title">Colors</span>
+                                        <ul class="product__color-list">
+                                            <li class="product__color-item color__product--7C"></li>
+                                            <li class="product__color-item color__product--33"></li>
+                                            <li class="product__color-item color__product--1C"></li>
+                                            <li class="product__color-item color__product--F6"></li>
+                                        </ul>
                                     </div>
-                                <div class="product__content">Iphone 12 128 GB (Red) Apple </div>
-                                <div class="product__price">458,43 $</div>
-                                <div class="section__2-button button__favorite ">
-                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                                 </div>
+                                <p class="product__content">Iphone 12 128 GB (Red) Apple </p>
+                                <p class="product__price">458,43 $</p>
+                                <button class="button__favorite ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
                             </div>
                         </div>
                         <div class="col l-3 m-4 c-6 unset-flex scroll-snap-start ">
-                            <div class="product color__product--FB  height-product">
-                                <div class="product__card">
-                                        <img src="./asset/img/photo/section_6/img_1.png" alt="img" class="product__img">
-                                        <div class="product__item-color">
-                                            <span class="product__tittle">Colors</span>
-                                            <ul class="product__list">
-                                                <li class="product__item color__product--7C"></li>
-                                                <li class="product__item color__product--33"></li>
-                                                <li class="product__item color__product--1C"></li>
-                                                <li class="product__item color__product--F6"></li>
-                                            </ul>
-                                        </div>
+                            <div class="product__card color__product--FB  height-product">
+                                <div class="product__container">
+                                    <img src="./asset/img/photo/section_6/img_1.png" alt="img" class="product__img">
+                                    <div class="product__color">
+                                        <span class="product__color-title">Colors</span>
+                                        <ul class="product__color-list">
+                                            <li class="product__color-item color__product--7C"></li>
+                                            <li class="product__color-item color__product--33"></li>
+                                            <li class="product__color-item color__product--1C"></li>
+                                            <li class="product__color-item color__product--F6"></li>
+                                        </ul>
                                     </div>
-                                <div class="product__content">Rovena Riva Series 6 Pcs. Wide Seating Claret Red Chair</div>
-                                <div class="product__price">195,13 $</div>
-                                <div class="section__2-button button__favorite ">
-                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                                 </div>
+                                <p class="product__content">Rovena Riva Series 6 Pcs. Seating Claret Red Chair
+                                </p>
+                                <p class="product__price">195,13 $</p>
+                                <button class="button__favorite ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
                             </div>
                         </div>
                         <div class="col l-3 m-4 c-6 unset-flex scroll-snap-start ">
-                            <div class="product color__product--C0  height-product">
-                                <div class="product__card">
-                                        <img src="./asset/img/photo/section_6/img_3.png" alt="img" class="product__img">
-                                        <div class="product__item-color">
-                                            <span class="product__tittle">Colors</span>
-                                            <ul class="product__list">
-                                                <li class="product__item color__product--7C"></li>
-                                                <li class="product__item color__product--33"></li>
-                                                <li class="product__item color__product--1C"></li>
-                                                <li class="product__item color__product--F6"></li>
-                                            </ul>
-                                        </div>
+                            <div class="product__card color__product--C0  height-product">
+                                <div class="product__container">
+                                    <img src="./asset/img/photo/section_6/img_3.png" alt="img" class="product__img">
+                                    <div class="product__color">
+                                        <span class="product__color-title">Colors</span>
+                                        <ul class="product__color-list">
+                                            <li class="product__color-item color__product--7C"></li>
+                                            <li class="product__color-item color__product--33"></li>
+                                            <li class="product__color-item color__product--1C"></li>
+                                            <li class="product__color-item color__product--F6"></li>
+                                        </ul>
                                     </div>
-                                <div class="product__content">Rovena Riva Series 6 Pcs. Wide Seating Claret Red Chair</div>
-                                <div class="product__price">789,67 $</div>
-                                <div class="section__2-button button__favorite ">
-                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                                 </div>
+                                <p class="product__content">Rovena Riva Series 6 Pcs. Seating Claret Red Chair
+                                </p>
+                                <p class="product__price">789,67 $</p>
+                                <button class="button__favorite ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
                             </div>
                         </div>
                     </div>
-                    <div class="row no-wrap scroll-snap no-mg section__6-list">
+                    <div class="row no-wrap scroll-snap no-mg category-2__product-list">
                         <div class="col l-3 m-4 c-6 unset-flex scroll-snap-start ">
-                            <div class="product color__product--C0  height-product">
-                                <div class="product__card">
-                                        <img src="./asset/img/photo/section_6/img_3.png" alt="img" class="product__img">
-                                        <div class="product__item-color">
-                                            <span class="product__tittle">Colors</span>
-                                            <ul class="product__list">
-                                                <li class="product__item color__product--7C"></li>
-                                                <li class="product__item color__product--33"></li>
-                                                <li class="product__item color__product--1C"></li>
-                                                <li class="product__item color__product--F6"></li>
-                                            </ul>
-                                        </div>
+                            <div class="product__card color__product--C0  height-product">
+                                <div class="product__container">
+                                    <img src="./asset/img/photo/section_6/img_3.png" alt="img" class="product__img">
+                                    <div class="product__color">
+                                        <span class="product__color-title">Colors</span>
+                                        <ul class="product__color-list">
+                                            <li class="product__color-item color__product--7C"></li>
+                                            <li class="product__color-item color__product--33"></li>
+                                            <li class="product__color-item color__product--1C"></li>
+                                            <li class="product__color-item color__product--F6"></li>
+                                        </ul>
                                     </div>
-                                <div class="product__content">Rovena Riva Series 6 Pcs. Wide Seating Claret Red Chair</div>
-                                <div class="product__price">789,67 $</div>
-                                <div class="section__2-button button__favorite ">
-                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                                 </div>
+                                <p class="product__content">Rovena Riva Series 6 Pcs. Seating Claret Red Chair
+                                </p>
+                                <p class="product__price">789,67 $</p>
+                                <button class="button__favorite ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
                             </div>
                         </div>
                         <div class="col l-3 m-4 c-6  unset-flex scroll-snap-start ">
-                            <div class="product  ">
+                            <div class="product__item-photo">
                                 <img src="./asset/img/photo/section_6/img_1.jpg" alt="img" class="section__6-photo">
                             </div>
                         </div>
                         <div class="col l-3 m-4 c-6 unset-flex scroll-snap-start ">
-                            <div class="product color__product--FB  height-product">
-                                <div class="product__card">
-                                        <img src="./asset/img/photo/section_6/img_1.png" alt="img" class="product__img">
-                                        <div class="product__item-color">
-                                            <span class="product__tittle">Colors</span>
-                                            <ul class="product__list">
-                                                <li class="product__item color__product--7C"></li>
-                                                <li class="product__item color__product--33"></li>
-                                                <li class="product__item color__product--1C"></li>
-                                                <li class="product__item color__product--F6"></li>
-                                            </ul>
-                                        </div>
+                            <div class="product__card color__product--FB  height-product">
+                                <div class="product__container">
+                                    <img src="./asset/img/photo/section_6/img_1.png" alt="img" class="product__img">
+                                    <div class="product__color">
+                                        <span class="product__color-title">Colors</span>
+                                        <ul class="product__color-list">
+                                            <li class="product__color-item color__product--7C"></li>
+                                            <li class="product__color-item color__product--33"></li>
+                                            <li class="product__color-item color__product--1C"></li>
+                                            <li class="product__color-item color__product--F6"></li>
+                                        </ul>
                                     </div>
-                                <div class="product__content">Rovena Riva Series 6 Pcs. Wide Seating Claret Red Chair</div>
-                                <div class="product__price">195,13 $</div>
-                                <div class="section__2-button button__favorite ">
-                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                                 </div>
+                                <p class="product__content">Rovena Riva Series 6 Pcs. Seating Claret Red Chair
+                                </p>
+                                <p class="product__price">195,13 $</p>
+                                <button class="button__favorite ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
                             </div>
                         </div>
                         <div class="col l-3 m-4 c-6 unset-flex scroll-snap-start ">
-                            <div class="product color__product--FF  height-product">
-                                <div class="product__card">
-                                        <img src="./asset/img/photo/section_6/img_2.png" alt="img" class="product__img">
-                                        <div class="product__item-color">
-                                            <span class="product__tittle">Colors</span>
-                                            <ul class="product__list">
-                                                <li class="product__item color__product--7C"></li>
-                                                <li class="product__item color__product--33"></li>
-                                                <li class="product__item color__product--1C"></li>
-                                                <li class="product__item color__product--F6"></li>
-                                            </ul>
-                                        </div>
+                            <div class="product__card color__product--FF  height-product">
+                                <div class="product__container">
+                                    <img src="./asset/img/photo/section_6/img_2.png" alt="img" class="product__img">
+                                    <div class="product__color">
+                                        <span class="product__color-title">Colors</span>
+                                        <ul class="product__color-list">
+                                            <li class="product__color-item color__product--7C"></li>
+                                            <li class="product__color-item color__product--33"></li>
+                                            <li class="product__color-item color__product--1C"></li>
+                                            <li class="product__color-item color__product--F6"></li>
+                                        </ul>
                                     </div>
-                                <div class="product__content">Iphone 12 128 GB (Red) Apple </div>
-                                <div class="product__price">458,43 $</div>
-                                <div class="section__2-button button__favorite ">
-                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                                 </div>
+                                <p class="product__content">Iphone 12 128 GB (Red) Apple </p>
+                                <p class="product__price">458,43 $</p>
+                                <button class="button__favorite ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
                             </div>
                         </div>
 
                     </div>
-                    <div class="row no-wrap scroll-snap no-mg section__6-list">
+                    <div class="row no-wrap scroll-snap no-mg category-2__product-list">
                         <div class="col l-3 m-4 c-6  unset-flex scroll-snap-start ">
-                            <div class="product  ">
+                            <div class="product__item-photo">
                                 <img src="./asset/img/photo/section_6/img_1.jpg" alt="img" class="section__6-photo">
                             </div>
                         </div>
                         <div class="col l-3 m-4 c-6 unset-flex scroll-snap-start ">
-                            <div class="product color__product--FB  height-product">
-                                <div class="product__card">
-                                        <img src="./asset/img/photo/section_6/img_1.png" alt="img" class="product__img">
-                                        <div class="product__item-color">
-                                            <span class="product__tittle">Colors</span>
-                                            <ul class="product__list">
-                                                <li class="product__item color__product--7C"></li>
-                                                <li class="product__item color__product--33"></li>
-                                                <li class="product__item color__product--1C"></li>
-                                                <li class="product__item color__product--F6"></li>
-                                            </ul>
-                                        </div>
+                            <div class="product__card color__product--FB  height-product">
+                                <div class="product__container">
+                                    <img src="./asset/img/photo/section_6/img_1.png" alt="img" class="product__img">
+                                    <div class="product__color">
+                                        <span class="product__color-title">Colors</span>
+                                        <ul class="product__color-list">
+                                            <li class="product__color-item color__product--7C"></li>
+                                            <li class="product__color-item color__product--33"></li>
+                                            <li class="product__color-item color__product--1C"></li>
+                                            <li class="product__color-item color__product--F6"></li>
+                                        </ul>
                                     </div>
-                                <div class="product__content">Rovena Riva Series 6 Pcs. Wide Seating Claret Red Chair</div>
-                                <div class="product__price">195,13 $</div>
-                                <div class="section__2-button button__favorite ">
-                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                                 </div>
+                                <p class="product__content">Rovena Riva Series 6 Pcs. Seating Claret Red Chair
+                                </p>
+                                <p class="product__price">195,13 $</p>
+                                <button class="button__favorite ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
                             </div>
                         </div>
                         <div class="col l-3 m-4 c-6 unset-flex scroll-snap-start ">
-                            <div class="product color__product--FF  height-product">
-                                <div class="product__card">
-                                        <img src="./asset/img/photo/section_6/img_2.png" alt="img" class="product__img">
-                                        <div class="product__item-color">
-                                            <span class="product__tittle">Colors</span>
-                                            <ul class="product__list">
-                                                <li class="product__item color__product--7C"></li>
-                                                <li class="product__item color__product--33"></li>
-                                                <li class="product__item color__product--1C"></li>
-                                                <li class="product__item color__product--F6"></li>
-                                            </ul>
-                                        </div>
+                            <div class="product__card color__product--FF  height-product">
+                                <div class="product__container">
+                                    <img src="./asset/img/photo/section_6/img_2.png" alt="img" class="product__img">
+                                    <div class="product__color">
+                                        <span class="product__color-title">Colors</span>
+                                        <ul class="product__color-list">
+                                            <li class="product__color-item color__product--7C"></li>
+                                            <li class="product__color-item color__product--33"></li>
+                                            <li class="product__color-item color__product--1C"></li>
+                                            <li class="product__color-item color__product--F6"></li>
+                                        </ul>
                                     </div>
-                                <div class="product__content">Iphone 12 128 GB (Red) Apple </div>
-                                <div class="product__price">458,43 $</div>
-                                <div class="section__2-button button__favorite ">
-                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                                 </div>
+                                <p class="product__content">Iphone 12 128 GB (Red) Apple </p>
+                                <p class="product__price">458,43 $</p>
+                                <button class="button__favorite ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
                             </div>
                         </div>
                         <div class="col l-3 m-4 c-6 unset-flex scroll-snap-start ">
-                            <div class="product color__product--C0  height-product">
-                                <div class="product__card">
-                                        <img src="./asset/img/photo/section_6/img_3.png" alt="img" class="product__img">
-                                        <div class="product__item-color">
-                                            <span class="product__tittle">Colors</span>
-                                            <ul class="product__list">
-                                                <li class="product__item color__product--7C"></li>
-                                                <li class="product__item color__product--33"></li>
-                                                <li class="product__item color__product--1C"></li>
-                                                <li class="product__item color__product--F6"></li>
-                                            </ul>
-                                        </div>
+                            <div class="product__card color__product--C0  height-product">
+                                <div class="product__container">
+                                    <img src="./asset/img/photo/section_6/img_3.png" alt="img" class="product__img">
+                                    <div class="product__color">
+                                        <span class="product__color-title">Colors</span>
+                                        <ul class="product__color-list">
+                                            <li class="product__color-item color__product--7C"></li>
+                                            <li class="product__color-item color__product--33"></li>
+                                            <li class="product__color-item color__product--1C"></li>
+                                            <li class="product__color-item color__product--F6"></li>
+                                        </ul>
                                     </div>
-                                <div class="product__content">Rovena Riva Series 6 Pcs. Wide Seating Claret Red Chair</div>
-                                <div class="product__price">789,67 $</div>
-                                <div class="section__2-button button__favorite ">
-                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                                 </div>
+                                <p class="product__content">Rovena Riva Series 6 Pcs. Seating Claret Red Chair
+                                </p>
+                                <p class="product__price">789,67 $</p>
+                                <button class="button__favorite ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
                             </div>
                         </div>
                     </div>
-                    <div class="row no-wrap scroll-snap no-mg section__6-list">
+                    <div class="row no-wrap scroll-snap no-mg category-2__product-list">
                         <div class="col l-3 m-4 c-6  unset-flex scroll-snap-start ">
-                            <div class="product  ">
+                            <div class="product__item-photo">
                                 <img src="./asset/img/photo/section_6/img_1.jpg" alt="img" class="section__6-photo">
                             </div>
                         </div>
                         <div class="col l-3 m-4 c-6 unset-flex scroll-snap-start ">
-                            <div class="product color__product--FB  height-product">
-                                <div class="product__card">
-                                        <img src="./asset/img/photo/section_6/img_1.png" alt="img" class="product__img">
-                                        <div class="product__item-color">
-                                            <span class="product__tittle">Colors</span>
-                                            <ul class="product__list">
-                                                <li class="product__item color__product--7C"></li>
-                                                <li class="product__item color__product--33"></li>
-                                                <li class="product__item color__product--1C"></li>
-                                                <li class="product__item color__product--F6"></li>
-                                            </ul>
-                                        </div>
+                            <div class="product__card color__product--FB  height-product">
+                                <div class="product__container">
+                                    <img src="./asset/img/photo/section_6/img_1.png" alt="img" class="product__img">
+                                    <div class="product__color">
+                                        <span class="product__color-title">Colors</span>
+                                        <ul class="product__color-list">
+                                            <li class="product__color-item color__product--7C"></li>
+                                            <li class="product__color-item color__product--33"></li>
+                                            <li class="product__color-item color__product--1C"></li>
+                                            <li class="product__color-item color__product--F6"></li>
+                                        </ul>
                                     </div>
-                                <div class="product__content">Rovena Riva Series 6 Pcs. Wide Seating Claret Red Chair</div>
-                                <div class="product__price">195,13 $</div>
-                                <div class="section__2-button button__favorite ">
-                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                                 </div>
+                                <p class="product__content">Rovena Riva Series 6 Pcs. Seating Claret Red Chair
+                                </p>
+                                <p class="product__price">195,13 $</p>
+                                <button class="button__favorite ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
                             </div>
                         </div>
                         <div class="col l-3 m-4 c-6 unset-flex scroll-snap-start ">
-                            <div class="product color__product--FF  height-product">
-                                <div class="product__card">
-                                        <img src="./asset/img/photo/section_6/img_2.png" alt="img" class="product__img">
-                                        <div class="product__item-color">
-                                            <span class="product__tittle">Colors</span>
-                                            <ul class="product__list">
-                                                <li class="product__item color__product--7C"></li>
-                                                <li class="product__item color__product--33"></li>
-                                                <li class="product__item color__product--1C"></li>
-                                                <li class="product__item color__product--F6"></li>
-                                            </ul>
-                                        </div>
+                            <div class="product__card color__product--FF  height-product">
+                                <div class="product__container">
+                                    <img src="./asset/img/photo/section_6/img_2.png" alt="img" class="product__img">
+                                    <div class="product__color">
+                                        <span class="product__color-title">Colors</span>
+                                        <ul class="product__color-list">
+                                            <li class="product__color-item color__product--7C"></li>
+                                            <li class="product__color-item color__product--33"></li>
+                                            <li class="product__color-item color__product--1C"></li>
+                                            <li class="product__color-item color__product--F6"></li>
+                                        </ul>
                                     </div>
-                                <div class="product__content">Iphone 12 128 GB (Red) Apple </div>
-                                <div class="product__price">458,43 $</div>
-                                <div class="section__2-button button__favorite ">
-                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                                 </div>
+                                <p class="product__content">Iphone 12 128 GB (Red) Apple </p>
+                                <p class="product__price">458,43 $</p>
+                                <button class="button__favorite ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
                             </div>
                         </div>
                         <div class="col l-3 m-4 c-6 unset-flex scroll-snap-start ">
-                            <div class="product color__product--C0  height-product">
-                                <div class="product__card">
-                                        <img src="./asset/img/photo/section_6/img_3.png" alt="img" class="product__img">
-                                        <div class="product__item-color">
-                                            <span class="product__tittle">Colors</span>
-                                            <ul class="product__list">
-                                                <li class="product__item color__product--7C"></li>
-                                                <li class="product__item color__product--33"></li>
-                                                <li class="product__item color__product--1C"></li>
-                                                <li class="product__item color__product--F6"></li>
-                                            </ul>
-                                        </div>
+                            <div class="product__card color__product--C0  height-product">
+                                <div class="product__container">
+                                    <img src="./asset/img/photo/section_6/img_3.png" alt="img" class="product__img">
+                                    <div class="product__color">
+                                        <span class="product__color-title">Colors</span>
+                                        <ul class="product__color-list">
+                                            <li class="product__color-item color__product--7C"></li>
+                                            <li class="product__color-item color__product--33"></li>
+                                            <li class="product__color-item color__product--1C"></li>
+                                            <li class="product__color-item color__product--F6"></li>
+                                        </ul>
                                     </div>
-                                <div class="product__content">Rovena Riva Series 6 Pcs. Wide Seating Claret Red Chair</div>
-                                <div class="product__price">789,67 $</div>
-                                <div class="section__2-button button__favorite ">
-                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                                 </div>
+                                <p class="product__content">Rovena Riva Series 6 Pcs. Seating Claret Red Chair
+                                </p>
+                                <p class="product__price">789,67 $</p>
+                                <button class="button__favorite ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
                             </div>
                         </div>
                     </div>
-                    <div class="row no-wrap scroll-snap no-mg section__6-list">
+                    <div class="row no-wrap scroll-snap no-mg category-2__product-list">
                         <div class="col l-3 m-4 c-6  unset-flex scroll-snap-start ">
-                            <div class="product  ">
+                            <div class="product__item-photo">
                                 <img src="./asset/img/photo/section_6/img_1.jpg" alt="img" class="section__6-photo">
                             </div>
                         </div>
                         <div class="col l-3 m-4 c-6 unset-flex scroll-snap-start ">
-                            <div class="product color__product--FB  height-product">
-                                <div class="product__card">
-                                        <img src="./asset/img/photo/section_6/img_1.png" alt="img" class="product__img">
-                                        <div class="product__item-color">
-                                            <span class="product__tittle">Colors</span>
-                                            <ul class="product__list">
-                                                <li class="product__item color__product--7C"></li>
-                                                <li class="product__item color__product--33"></li>
-                                                <li class="product__item color__product--1C"></li>
-                                                <li class="product__item color__product--F6"></li>
-                                            </ul>
-                                        </div>
+                            <div class="product__card color__product--FB  height-product">
+                                <div class="product__container">
+                                    <img src="./asset/img/photo/section_6/img_1.png" alt="img" class="product__img">
+                                    <div class="product__color">
+                                        <span class="product__color-title">Colors</span>
+                                        <ul class="product__color-list">
+                                            <li class="product__color-item color__product--7C"></li>
+                                            <li class="product__color-item color__product--33"></li>
+                                            <li class="product__color-item color__product--1C"></li>
+                                            <li class="product__color-item color__product--F6"></li>
+                                        </ul>
                                     </div>
-                                <div class="product__content">Rovena Riva Series 6 Pcs. Wide Seating Claret Red Chair</div>
-                                <div class="product__price">195,13 $</div>
-                                <div class="section__2-button button__favorite ">
-                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                                 </div>
+                                <p class="product__content">Rovena Riva Series 6 Pcs. Seating Claret Red Chair
+                                </p>
+                                <p class="product__price">195,13 $</p>
+                                <button class="button__favorite ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
                             </div>
                         </div>
                         <div class="col l-3 m-4 c-6 unset-flex scroll-snap-start ">
-                            <div class="product color__product--FF  height-product">
-                                <div class="product__card">
-                                        <img src="./asset/img/photo/section_6/img_2.png" alt="img" class="product__img">
-                                        <div class="product__item-color">
-                                            <span class="product__tittle">Colors</span>
-                                            <ul class="product__list">
-                                                <li class="product__item color__product--7C"></li>
-                                                <li class="product__item color__product--33"></li>
-                                                <li class="product__item color__product--1C"></li>
-                                                <li class="product__item color__product--F6"></li>
-                                            </ul>
-                                        </div>
+                            <div class="product__card color__product--FF  height-product">
+                                <div class="product__container">
+                                    <img src="./asset/img/photo/section_6/img_2.png" alt="img" class="product__img">
+                                    <div class="product__color">
+                                        <span class="product__color-title">Colors</span>
+                                        <ul class="product__color-list">
+                                            <li class="product__color-item color__product--7C"></li>
+                                            <li class="product__color-item color__product--33"></li>
+                                            <li class="product__color-item color__product--1C"></li>
+                                            <li class="product__color-item color__product--F6"></li>
+                                        </ul>
                                     </div>
-                                <div class="product__content">Iphone 12 128 GB (Red) Apple </div>
-                                <div class="product__price">458,43 $</div>
-                                <div class="section__2-button button__favorite ">
-                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                                 </div>
+                                <p class="product__content">Iphone 12 128 GB (Red) Apple </p>
+                                <p class="product__price">458,43 $</p>
+                                <button class="button__favorite ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
                             </div>
                         </div>
                         <div class="col l-3 m-4 c-6 unset-flex scroll-snap-start ">
-                            <div class="product color__product--C0  height-product">
-                                <div class="product__card">
-                                        <img src="./asset/img/photo/section_6/img_3.png" alt="img" class="product__img">
-                                        <div class="product__item-color">
-                                            <span class="product__tittle">Colors</span>
-                                            <ul class="product__list">
-                                                <li class="product__item color__product--7C"></li>
-                                                <li class="product__item color__product--33"></li>
-                                                <li class="product__item color__product--1C"></li>
-                                                <li class="product__item color__product--F6"></li>
-                                            </ul>
-                                        </div>
+                            <div class="product__card color__product--C0  height-product">
+                                <div class="product__container">
+                                    <img src="./asset/img/photo/section_6/img_3.png" alt="img" class="product__img">
+                                    <div class="product__color">
+                                        <span class="product__color-title">Colors</span>
+                                        <ul class="product__color-list">
+                                            <li class="product__color-item color__product--7C"></li>
+                                            <li class="product__color-item color__product--33"></li>
+                                            <li class="product__color-item color__product--1C"></li>
+                                            <li class="product__color-item color__product--F6"></li>
+                                        </ul>
                                     </div>
-                                <div class="product__content">Rovena Riva Series 6 Pcs. Wide Seating Claret Red Chair</div>
-                                <div class="product__price">789,67 $</div>
-                                <div class="section__2-button button__favorite ">
-                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
                                 </div>
+                                <p class="product__content">Rovena Riva Series 6 Pcs. Seating Claret Red Chair
+                                </p>
+                                <p class="product__price">789,67 $</p>
+                                <button class="button__favorite ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
                             </div>
                         </div>
                     </div>
-                    <div class="section__5-container">
-                        <div class="section__5-list scroll-snap">
-                            <div class="product__card-2-item">
-                                    <div class="product__card-2-photo">
-                                        <img src="./asset/img/photo/section_5/img_1.png" alt="img" class="product__card-2-img">
-                                    </div>
-                                    <div class="product__card-2-name">Distressed Tote Leather Bag Leather Bag</div>
-                                    <div class="product__card-2-price">216,27 $</div>
-                                    <div class="product__card-2-button button__favorite">
-                                        <img src="./asset/img/icon/Favorite.svg" alt="img" class="section__2-favortite">
-                                    </div>
-                                </div>
-                            <div class="product__card-2-item">
-                                    <div class="product__card-2-photo">
-                                        <img src="./asset/img/photo/section_5/img_1.png" alt="img" class="product__card-2-img">
-                                    </div>
-                                    <div class="product__card-2-name">Distressed Tote Leather Bag Leather Bag</div>
-                                    <div class="product__card-2-price">216,27 $</div>
-                                    <div class="product__card-2-button button__favorite">
-                                        <img src="./asset/img/icon/Favorite.svg" alt="img" class="section__2-favortite">
-                                    </div>
-                                </div>
-                            <div class="product__card-2-item">
-                                    <div class="product__card-2-photo">
-                                        <img src="./asset/img/photo/section_5/img_1.png" alt="img" class="product__card-2-img">
-                                    </div>
-                                    <div class="product__card-2-name">Distressed Tote Leather Bag Leather Bag</div>
-                                    <div class="product__card-2-price">216,27 $</div>
-                                    <div class="product__card-2-button button__favorite">
-                                        <img src="./asset/img/icon/Favorite.svg" alt="img" class="section__2-favortite">
-                                    </div>
-                                </div>
-                            <div class="product__card-2-item">
-                                    <div class="product__card-2-photo">
-                                        <img src="./asset/img/photo/section_5/img_1.png" alt="img" class="product__card-2-img">
-                                    </div>
-                                    <div class="product__card-2-name">Distressed Tote Leather Bag Leather Bag</div>
-                                    <div class="product__card-2-price">216,27 $</div>
-                                    <div class="product__card-2-button button__favorite">
-                                        <img src="./asset/img/icon/Favorite.svg" alt="img" class="section__2-favortite">
-                                    </div>
-                                </div>
-                            <div class="product__card-2-item">
-                                    <div class="product__card-2-photo">
-                                        <img src="./asset/img/photo/section_5/img_1.png" alt="img" class="product__card-2-img">
-                                    </div>
-                                    <div class="product__card-2-name">Distressed Tote Leather Bag Leather Bag</div>
-                                    <div class="product__card-2-price">216,27 $</div>
-                                    <div class="product__card-2-button button__favorite">
-                                        <img src="./asset/img/icon/Favorite.svg" alt="img" class="section__2-favortite">
-                                    </div>
-                                </div>
-                            <div class="product__card-2-item">
-                                    <div class="product__card-2-photo">
-                                        <img src="./asset/img/photo/section_5/img_1.png" alt="img" class="product__card-2-img">
-                                    </div>
-                                    <div class="product__card-2-name">Distressed Tote Leather Bag Leather Bag</div>
-                                    <div class="product__card-2-price">216,27 $</div>
-                                    <div class="product__card-2-button button__favorite">
-                                        <img src="./asset/img/icon/Favorite.svg" alt="img" class="section__2-favortite">
-                                    </div>
-                                </div>
-                            <div class="product__card-2-item">
-                                    <div class="product__card-2-photo">
-                                        <img src="./asset/img/photo/section_5/img_1.png" alt="img" class="product__card-2-img">
-                                    </div>
-                                    <div class="product__card-2-name">Distressed Tote Leather Bag Leather Bag</div>
-                                    <div class="product__card-2-price">216,27 $</div>
-                                    <div class="product__card-2-button button__favorite">
-                                        <img src="./asset/img/icon/Favorite.svg" alt="img" class="section__2-favortite">
-                                    </div>
-                                </div>
-                            <div class="product__card-2-item">
-                                    <div class="product__card-2-photo">
-                                        <img src="./asset/img/photo/section_5/img_1.png" alt="img" class="product__card-2-img">
-                                    </div>
-                                    <div class="product__card-2-name">Distressed Tote Leather Bag Leather Bag</div>
-                                    <div class="product__card-2-price">216,27 $</div>
-                                    <div class="product__card-2-button button__favorite">
-                                        <img src="./asset/img/icon/Favorite.svg" alt="img" class="section__2-favortite">
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="pagination show-on-mobile show-on-table">
+                    <div class="pagination show-on-mobile">
                         <ul class="pagination__list">
                             <li class="pagination__item pagination__item--active">
-                                
+
                             </li>
                             <li class="pagination__item">
-                                
+
                             </li>
                             <li class="pagination__item">
-                                
+
                             </li>
                             <li class="pagination__item hide-one-mobile">
-                                
+
                             </li>
                         </ul>
                     </div>
+                </div>
             </div>
         </div>
+        <div class="category section grid p-mobile-16">
+            <div class="category__container pb-6">
+
+
+                <!--  -->
+                <!-- <section class="section__category">
+                    <div class="container">
+                        <div class="category__wrap">
+                            <div class="category__wrap-item">
+                                <img src="" alt="">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </section> -->
+                <!--  -->
+                <div class="category__body pb-6 scroll-snap">
+                    <ul class="category__body-list">
+                        <li class="category__body-item">
+                            <div class="product-card-2">
+                                <div class="product-card-2__img">
+                                    <img src="./asset/img/photo/section_5/img_1.png" alt="img"
+                                        class="product-card-2__img-child">
+                                </div>
+                                <p class="product-card-2__name">Distressed Tote Leather Bag Leather Bag</p>
+                                <span class="product-card-2__price">216,27 $</span>
+                                <button class="button__favorite product-card-2__button ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
+                            </div>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="product-card-2">
+                                <div class="product-card-2__img">
+                                    <img src="./asset/img/photo/section_5/img_1.png" alt="img"
+                                        class="product-card-2__img-child">
+                                </div>
+                                <p class="product-card-2__name">Distressed Tote Leather Bag Leather Bag</p>
+                                <span class="product-card-2__price">216,27 $</span>
+                                <button class="button__favorite product-card-2__button ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
+                            </div>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="product-card-2">
+                                <div class="product-card-2__img">
+                                    <img src="./asset/img/photo/section_5/img_1.png" alt="img"
+                                        class="product-card-2__img-child">
+                                </div>
+                                <p class="product-card-2__name">Distressed Tote Leather Bag Leather Bag</p>
+                                <span class="product-card-2__price">216,27 $</span>
+                                <button class="button__favorite product-card-2__button ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
+                            </div>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="product-card-2">
+                                <div class="product-card-2__img">
+                                    <img src="./asset/img/photo/section_5/img_1.png" alt="img"
+                                        class="product-card-2__img-child">
+                                </div>
+                                <p class="product-card-2__name">Distressed Tote Leather Bag Leather Bag</p>
+                                <span class="product-card-2__price">216,27 $</span>
+                                <button class="button__favorite product-card-2__button ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
+                            </div>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="product-card-2">
+                                <div class="product-card-2__img">
+                                    <img src="./asset/img/photo/section_5/img_1.png" alt="img"
+                                        class="product-card-2__img-child">
+                                </div>
+                                <p class="product-card-2__name">Distressed Tote Leather Bag Leather Bag</p>
+                                <span class="product-card-2__price">216,27 $</span>
+                                <button class="button__favorite product-card-2__button ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
+                            </div>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="product-card-2">
+                                <div class="product-card-2__img">
+                                    <img src="./asset/img/photo/section_5/img_1.png" alt="img"
+                                        class="product-card-2__img-child">
+                                </div>
+                                <p class="product-card-2__name">Distressed Tote Leather Bag Leather Bag</p>
+                                <span class="product-card-2__price">216,27 $</span>
+                                <button class="button__favorite product-card-2__button ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
+                            </div>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="product-card-2">
+                                <div class="product-card-2__img">
+                                    <img src="./asset/img/photo/section_5/img_1.png" alt="img"
+                                        class="product-card-2__img-child">
+                                </div>
+                                <p class="product-card-2__name">Distressed Tote Leather Bag Leather Bag</p>
+                                <span class="product-card-2__price">216,27 $</span>
+                                <button class="button__favorite product-card-2__button ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
+                            </div>
+                        </li>
+                        <li class="category__body-item">
+                            <div class="product-card-2">
+                                <div class="product-card-2__img">
+                                    <img src="./asset/img/photo/section_5/img_1.png" alt="img"
+                                        class="product-card-2__img-child">
+                                </div>
+                                <p class="product-card-2__name">Distressed Tote Leather Bag Leather Bag</p>
+                                <span class="product-card-2__price">216,27 $</span>
+                                <button class="button__favorite product-card-2__button ">
+                                    <img src="./asset/img/icon/Favorite.svg" alt="img" class="icon__favortite">
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pagination show-on-mobile show-on-table">
+                <ul class="pagination__list">
+                    <li class="pagination__item pagination__item--active"></li>
+                    <li class="pagination__item"></li>
+                    <li class="pagination__item"></li>
+                    <li class="pagination__item hide-one-mobile"></li>
+                </ul>
+            </div>
         </div>
-        <div class="section__long grid wide">
-            <div class="section__7-container">
-                <div class="section__7-content">
-                    <p class="section__7-text">Yes!</p>
-                    <p class="section__7-text">Send me exclusive offers, unique gift ideas, and personalized
+        <div class="submit section grid">
+            <div class="submit__container">
+                <div class="submit__content">
+                    <p class="submit__text">Yes!</p>
+                    <p class="submit__text">Send me exclusive offers, unique gift ideas, and personalized
                         tips for shopping and selling on Commerce.</p>
                 </div>
-                <form  class="section__7-form" >
-                    <div class="section__7-input">
-                        <input type="text" class="section__7-input" placeholder="Drop your Email">
+                <form class="submit__form">
+                    <div class="submit__input">
+                        <input type="text" class="submit__input" placeholder="Drop your Email">
                     </div>
-                    <a href="" class="section__7-button">
+                    <a href="" class="submit__button">
                         Subscribe
-                        <img src="./asset/img/icon/Vector_9.svg" alt="img" class="section__7-icon">
+                        <img src="./asset/img/icon/Vector_9.svg" alt="img" class="icon__vector-right">
                     </a>
                 </form>
-                
-                <div class="section__7-decription hide-one-mobile hide-on-table">
+
+                <div class="submit__decription hide-one-mobile hide-on-table">
                     <a href="">
                         First order only. You’re ready?
-                    </a> </div>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
-    <div class="section__long ">
-        <div class="section__8">
-            Commerce, is powered by 100% renewable electricity.</div>
+    <div class="section">
+        <div class="seperate">
+            Commerce, is powered by 100% renewable electricity.
         </div>
     </div>
     <div id="footer">
-        <div class="grid wide">
+        <div class="grid">
             <div class="row mobile_footer tablet-footer">
                 <div class="col l-4 m-2-4 c-12 mobile-order-5">
                     <div class="footer__item">
@@ -1074,6 +1217,12 @@
                             <p>Cricklewood,London</p>
                             <p> NW2 6qg, Uk</p>
                         </div>
+                        <!-- 
+                            ul
+                            li
+                            a
+                            img
+                         -->
                         <div class="footer__social">
                             <a href="">
                                 <img src="./asset/img/logo/facebook.svg" alt="img" class="footer__social-logo mr-16">
@@ -1092,95 +1241,100 @@
                 </div>
                 <div class="col l-2 m-2 c-12 mobile-order-1">
                     <div class="footer__item">
-                        <div class="footer__item-tittle  ">Shop
-                            <img src="./asset/img/icon/arrow_down.svg" alt="" class="footer__icon-down footer__icon-down-d">
-                            <img src="./asset/img/icon/arrow_down_at.svg" alt="" class="footer__icon-down footer__icon-down-at">
+                        <div class="footer__item-title  ">Shop
+                            <img src="./asset/img/icon/arrow_down.svg" alt=""
+                                class="footer__icon-down footer__icon-down-d">
+                            <img src="./asset/img/icon/arrow_down_at.svg" alt=""
+                                class="footer__icon-down footer__icon-down-at">
                         </div>
                         <ul class="footer__item-list ">
-                            <a href="">
-                                <li class="footer__item-item">Gift cards</li>
-                            </a>
-                            <a href="">
-                                <li class="footer__item-item">Site map</li>
-                            </a>
-                            <a href="">
-                                <li class="footer__item-item">Polka blog</li>
-                            </a>
-                            <a href="">
-                                <li class="footer__item-item">Login</li>
-                            </a>
-                            <a href="">
-                                <li class="footer__item-item">Sign in</li>
-                            </a>
+                            <li class="footer__item-item">
+                                <a href="">Gift cards</a>
+                            </li>
+                            <li class="footer__item-item">
+                                <a href="">Site map</a>
+                            </li>
+                            <li class="footer__item-item">
+                                <a href="">Polka blog</a>
+                            </li>
+                            <li class="footer__item-item">
+                                <a href="">Login</a>
+                            </li>
+                            <li class="footer__item-item">
+                                <a href="">Sign in</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col l-2 m-2 c-12 mobile-order-2 ">
                     <div class="footer__item ">
-                        <div class="footer__item-tittle footer__item--active">About
-                            <img src="./asset/img/icon/arrow_down.svg" alt="" class="footer__icon-down footer__icon-down-d">
-                            <img src="./asset/img/icon/arrow_down_at.svg" alt="" class="footer__icon-down footer__icon-down-at">
+                        <div class="footer__item-title footer__item--active">About
+                            <img src="./asset/img/icon/arrow_down.svg" alt=""
+                                class="footer__icon-down footer__icon-down-d">
+                            <img src="./asset/img/icon/arrow_down_at.svg" alt=""
+                                class="footer__icon-down footer__icon-down-at">
                         </div>
                         <ul class="footer__item-list footer__item-list--active">
-                            <a href="">
-                                <li class="footer__item-item">Polka, Inc.</li>
-                            </a>
-                            <a href="">
-                                <li class="footer__item-item">Policies</li>
-                            </a>
-                            <a href="">
-                                <li class="footer__item-item">Investors</li>
-                            </a>
-                            <a href="">
-                                <li class="footer__item-item">Careers</li>
-                            </a>
-                            <a href="">
-                                <li class="footer__item-item">Press</li>
-                            </a>
+                            <li class="footer__item-item">
+                                <a href="">Polka, Inc.</a>
+                            </li>
+                            <li class="footer__item-item">
+                                <a href="">Policies</a>
+                            </li>
+                            <li class="footer__item-item">
+                                <a href="">Investors</a>
+                            </li>
+                            <li class="footer__item-item">
+                                <a href="">Careers</a>
+                            </li>
+                            <li class="footer__item-item">
+                                <a href="">Press</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col l-2 m-2 c-12 mobile-order-3">
                     <div class="footer__item">
-                        <div class="footer__item-tittle ">Sell
-                            <img src="./asset/img/icon/arrow_down.svg" alt="" class="footer__icon-down footer__icon-down-d">
-                            <img src="./asset/img/icon/arrow_down_at.svg" alt="" class="footer__icon-down footer__icon-down-at">
+                        <div class="footer__item-title ">Sell
+                            <img src="./asset/img/icon/arrow_down.svg" alt=""
+                                class="footer__icon-down footer__icon-down-d">
+                            <img src="./asset/img/icon/arrow_down_at.svg" alt=""
+                                class="footer__icon-down footer__icon-down-at">
                         </div>
                         <ul class="footer__item-list ">
-                            <a href="">
-                                <li class="footer__item-item">Sell on Polka<li>
-
-                            </a>
-                            <a href="">
-                                <li class="footer__item-item">Teams</li>
-                            </a>
-                            <a href="">
-                                <li class="footer__item-item">Forums</li>
-                            </a>
-                            <a href="">
-                                <li class="footer__item-item">Affiliates</li>
-                            </a>
+                            <li class="footer__item-item">
+                                <a href="">Sell on Polka</a>
+                            <li>
+                            <li class="footer__item-item">
+                                <a href="">Teams</a>
+                            </li>
+                            <li class="footer__item-item">
+                                <a href="">Forums</a>
+                            </li>
+                            <li class="footer__item-item">
+                                <a href="">Affiliates</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col l-2 m-2 c-12 mobile-order-4">
                     <div class="footer__item">
-                        <div class="footer__item-tittle ">Help
-                            <img src="./asset/img/icon/arrow_down.svg" alt="" class="footer__icon-down footer__icon-down-d">
-                            <img src="./asset/img/icon/arrow_down_at.svg" alt="" class="footer__icon-down footer__icon-down-at">
+                        <div class="footer__item-title ">Help
+                            <img src="./asset/img/icon/arrow_down.svg" alt=""
+                                class="footer__icon-down footer__icon-down-d">
+                            <img src="./asset/img/icon/arrow_down_at.svg" alt=""
+                                class="footer__icon-down footer__icon-down-at">
                         </div>
                         <ul class="footer__item-list ">
-                            <a href="">
-                                <li class="footer__item-item">Help Center</li>
-                            </a>
-                            <a href="">
-                                <li class="footer__item-item">Trust and safety </li>
-
-                            </a>
-                            <a href="">
-                                <li class="footer__item-item">Privacy setings<li>
-
-                            </a>
+                            <li class="footer__item-item">
+                                <a href="">Help Center</a>
+                            </li>
+                            <li class="footer__item-item"> 
+                                <a href="">Trust and safety</a>
+                            </li>
+                            <li class="footer__item-item">
+                                <a href="">Privacy setings</a>
+                            <li>
                         </ul>
                     </div>
                 </div>
@@ -1188,15 +1342,15 @@
             <div class="footer__info">
                 <div class="footer__info-item">© 2022 Commerce, Inc.</div>
                 <div class="footer__info-item hide-one-mobile">
-                    <a href="">
-                        <div class="footer__info-privacy">Privacy policy</div>
-                    </a>
-                    <a href="">
-                        <div class="footer__info-terms">Terms of use</div>
-                    </a>
-                    <a href="">
-                        <div class="footer__info-cookies">Cookies</div>
-                    </a>
+                    <div class="footer__info-privacy">
+                        <a href="">Privacy policy</a>
+                    </div>
+                    <div class="footer__info-terms">
+                        <a href="">Terms of use</a>
+                    </div>
+                    <div class="footer__info-cookies">
+                        <a href="">Cookies</a>
+                    </div>
                 </div>
                 <div class="footer__info-item hide-one-mobile">
                     <button class="footer__info-scroll">
@@ -1210,4 +1364,5 @@
     <script src="./main.js">
     </script>
 </body>
+
 </html>
