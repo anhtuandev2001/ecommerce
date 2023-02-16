@@ -279,9 +279,11 @@
 }
 
 .topic__img {
+    height: 180px;
     width: 100%;
     object-fit: cover;
     display: block;
+    border-radius: 5px;
 }
 
 .topic__content {
@@ -354,7 +356,9 @@
 .commit__img {
     width: 100%;
     max-width: 126px;
-    padding-top: 24px;
+    height: 126px;
+    border-radius: 50%;
+    margin-top: 24px;
 }
 
 /* category */
@@ -430,6 +434,7 @@
 .category__body-img-child {
     width: 128px;
     height: 128px;
+    border-radius: 5px;
 }
 
 .category__body-item-name {
@@ -506,6 +511,7 @@
 }
 
 .category-2__img {
+    border-radius: 5px;
     width: 100%;
     height: 100%;
 }
