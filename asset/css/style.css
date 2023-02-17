@@ -35,6 +35,11 @@
     display: none;
 }
 
+.search__menu:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
 .search__menu-icon {
     padding: 12px 31px;
     display: block;
@@ -190,6 +195,10 @@
     color: var(--text-color);
     align-items: center;
     position: relative;
+}
+
+.border-heart{
+    border: solid 1px var(--border-color);
 }
 
 .nav__shoping-link::before{
@@ -485,6 +494,11 @@ ul{
     margin: 0 auto;
     text-align: center;
     margin-top: 24px;
+}
+
+.category-2__item-text:hover{
+    cursor: pointer;
+    opacity: 0.5;
 }
 
 .category-2__container {
