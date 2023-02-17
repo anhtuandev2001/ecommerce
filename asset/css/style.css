@@ -58,8 +58,6 @@
 }
 
 .search__category-content {
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
@@ -103,8 +101,6 @@
 }
 
 .search__category-item-link {
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
@@ -120,17 +116,20 @@
     height: 100%;
 }
 
+.flex-1{
+    flex: 1;
+}
+
 .search__input {
     width: 100%;
     padding: 16px 0;
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
     border: none;
     outline: none;
     color: var(--sub-text-color);
+    flex: 1;
 }
 
 .search__form-icon {
@@ -160,8 +159,6 @@
     border-radius: 50px;
     display: block;
     padding: 16px 30px;
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
@@ -171,8 +168,6 @@
 .nav__account-link {
     display: flex;
     align-items: center;
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -189,8 +184,6 @@
 
 .nav__shoping-link {
     display: flex;
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -237,8 +230,6 @@
 }
 
 .navigation__item-link {
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 400;
     position: relative;
     font-size: 14px;
@@ -288,8 +279,6 @@
 
 .topic__content {
     position: absolute;
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -335,8 +324,6 @@
 .commit__title {
     margin-top: 0;
     margin-bottom: 12px;
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -345,8 +332,6 @@
 
 .commit__description {
     margin: 0;
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
@@ -376,17 +361,17 @@
 }
 
 .category__headine {
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 26px;
     margin: 0;
 }
 
+.category__headine br{
+    display: none;
+}
+
 .category__sub-headine {
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
@@ -441,8 +426,6 @@
     text-align: center;
     margin: 0;
     margin-top: 24px;
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
@@ -483,10 +466,17 @@
     color: var(--main-third);
     height: 87px;
 }
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
 .category-2__item-text {
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -576,8 +566,6 @@
     padding: 8px 0 8px 24px;
     background: var(--main-third);
     border-radius: 50px;
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
@@ -600,8 +588,6 @@
 
 .submit__decription a {
     text-align: center;
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
@@ -614,8 +600,6 @@
 
 /*  */
 .seperate {
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -628,8 +612,6 @@
 /*  */
 .footer__nation {
     padding-top: 41px;
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -671,8 +653,6 @@
 }
 
 .footer__item-item a{
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -685,8 +665,6 @@
 
 .footer__item-title {
     padding-top: 40px;
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
@@ -732,8 +710,6 @@
 }
 
 .footer__info-item {
-    font-family: "Poppins";
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -794,7 +770,7 @@
 }
 
 .full-width {
-    width: 100%;
+    max-width: 100%;
 }
 
 .icon__arrowd {

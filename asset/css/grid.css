@@ -8,6 +8,7 @@
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
+    margin-right: auto;
 }
 .grid {
     max-width: 1320px;
@@ -323,17 +324,17 @@
     }
 }
 
-/* Tablet - PC low resolution */
+/* Tablet - PC low resolution
 @media (min-width: 740px) and (max-width: 1023px) {
     .grid {
-        /* width: 644px; */
+        width: 644px;
     }
-}
+} */
 
 /* > PC low resolution */
-@media (min-width: 1024px) and (max-width: 1239px) {
+/* @media (min-width: 1024px) and (max-width: 1239px) {
     .grid {
-        /* width: 984px; */
+        width: 984px;
     }
 
     .grid .row {
@@ -445,4 +446,4 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
-}
+} */
